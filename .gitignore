@@ -1,0 +1,40 @@
+# Python environments and caches
+.venv/
+venv/
+.uv-cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Editor and local assistant files
+/.workbuddy/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Runtime output and local state
+logs/
+log/
+*.log
+*.pid
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+data/classifier/*
+!data/classifier/reports/
